@@ -23,7 +23,7 @@ def generate_summary(user_prompt, llm_response):
 
 def generate_response(prompt):
     """
-    Sends the full prompt to LLaMA (via Ollama) and returns its reply.
+    Sends the full prompt to LLaMA (via Ollama) and returns its replysssss.
     """
     response = requests.post(
         "http://localhost:11434/api/generate",
